@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b0b0b;
+}
+
+.section {
+    width: 100%;
+    max-width: 1202px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col-6 {
+    
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a {
+    background: url('../assets/istockphoto-1366840627-612x612.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+    
+    color: #000;
+}
+
+
+.b {
+    background-color: white;
+    padding: 30px;
+}
+
+.login-form {
+    text-align: center;
+    /* width: 100%;
+    background-color: aqua; */
+}
+
+.login-form h2 {
+   
+    margin-bottom: 16px;
+    color: #007bff;
+}
+
+.login-form p {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.inp{
+    margin-bottom: 18px;
+}
+
+.inp label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.inp input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+   height: 30px;
+  
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+   
+   
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.soc {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.soc button {
+  
+    margin: 0 0.5rem;
+    background-color: #ddd;
+    color: #333;
+}
+
+.fa-google {
+    background-color: #39dd70;
+    color: white;
+}
+
+.fa-youtube {
+    background-color: #3b5998;
+    color: white;
+}
+
+.fa-instagram {
+    background-color: #000;
+    color: rgb(247, 35, 208);
+}
